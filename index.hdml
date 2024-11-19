@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Emulator</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+        }
+        .container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        input {
+            width: 70%;
+            max-width: 500px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        iframe {
+            width: 100%;
+            height: 70vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input id="urlInput" type="text" placeholder="Enter a website URL (e.g., https://example.com)" />
+        <button onclick="loadWebsite()">Load Website</button>
+    </div>
+    <iframe id="webFrame" src="" sandbox="allow-scripts allow-same-origin"></iframe>
+
+    <script>
+        function loadWebsite() {
+            const input = document.getElementById('urlInput').value.trim();
+            const iframe = document.getElementById('webFrame');
+
+            // Validate input
+            if (input) {
+                const validUrl = input.startsWith('http://') || input.startsWith('https://');
+                if (validUrl) {
+                    iframe.src = input;
+                } else {
+                    alert('Please enter a valid URL starting with http:// or https://');
+                    iframe.src = ''; // Clear iframe if input is invalid
+                }
+            } else {
+                alert('Please enter a website URL.');
+                iframe.src = ''; // Clear iframe if no input is provided
+            }
+        }
+
+        // Listen for redirect attempts within the iframe to ensure they stay inside the iframe, not a new tab
+        document.getElementById('webFrame').onload = function() {
+            const iframe = document.getElementById('webFrame').contentWindow;
+
+            iframe.document.addEventListener('DOMContentLoaded', function() {
+                // Listen for redirects or links that try to open in a new window
+                iframe.document.body.addEventListener('click', function(e) {
+                    const target = e.target;
+                    if (target.tagName === 'A' && target.target !== '_blank') {
+                        e.preventDefault();
+                        iframe.location = target.href;  // Follow the link inside the iframe
+                    }
+                });
+            });
+        };
+    </script>
+</body>
+</html>

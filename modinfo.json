@@ -24,7 +24,7 @@
     "version": "5.2.0",
     "dependencies": [],
     "git_path": "iiDk-the-actual/iis_Stupid_Menu.dll",
-    "group": "Gameplay",
+    "group": "Tweaks / Tools",
     "download_url": "https://github.com/iiDk-the-actual/iis.Stupid.Menu/releases/latest/download/iis_Stupid_Menu.dll"
   },
   {
@@ -68,7 +68,7 @@
       "Utilla"
     ],
     "git_path": "AngelxdripUNITY/WalkSim.dll",
-    "group": "Gameplay",
+    "group": "Tweaks / Tools",
     "download_url": "https://github.com/AngelxdripUNITY/Wat/raw/refs/heads/main/WalkSim.dll"
   },
   {

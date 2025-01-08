@@ -50,6 +50,17 @@
     "download_url": "https://github.com/Monosphere/Mono-Sandbox-Mod/releases/download/V1.2.1/MonoSandbox.dll"
   },
   {
+    "name": "Leg Mod",
+    "author": "Angel",
+    "version": "0.0.2",
+    "dependencies": [
+      "Utilla"
+    ],
+    "git_path": "AngelxdripUNITY/LegModGLOBAL.dll",
+    "group": "Gameplay",
+    "download_url": "https://github.com/AngelxdripUNITY/Legs/releases/download/v0.0.2/LegModGLOBAL.dll"
+  },
+  {
     "name": "Gorilla Shirts",
     "author": "developer9998",
     "version": "1.1.7",

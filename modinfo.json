@@ -87,19 +87,8 @@
       "Banana OS"
     ],
     "git_path": "AngelxdripUNITY/CustomCosmetics",
-    "group": "Cosmetic",
-    "download_url": "https://github.com/AngelxdripUNITY/Wat/raw/refs/heads/main/CustomCosmetics.zip"
-  },
-  {
-    "name": "Grav Monke",
-    "author": "Buzz Bzzz bzz BZZZ The 18th",
-    "version": "1.0.0",
-    "dependencies": [
-      "Utilla"
-    ],
-    "git_path": "BzzzThe18th/Grav-Monke-PC",
     "group": "Gameplay",
-    "download_url": "https://github.com/BzzzThe18th/Grav-Monke-PC/releases/download/1.0.0/GravMonke-v1.0.0.zip"
+    "download_url": "https://github.com/AngelxdripUNITY/Wat/raw/refs/heads/main/CustomCosmetics.zip"
   },
   {
     "name": "Haunted Mod Menu",

@@ -18,6 +18,15 @@
     "group": "Tweaks / Tools",
     "download_url": "https://github.com/HuskyGT/Banana-OS/releases/download/1.0.8/BananaOS.dll"
   },
+    {
+    "name": "II Stupid Mod Menu",
+    "author": "iiDK",
+    "version": "5.2.0",
+    "dependencies": [],
+    "git_path": "iiDk-the-actual/iis_Stupid_Menu.dll",
+    "group": "Gameplay",
+    "download_url": "https://github.com/iiDk-the-actual/iis.Stupid.Menu/releases/latest/download/iis_Stupid_Menu.dll"
+  },
   {
     "name": "Newtonsoft.JSON",
     "author": "James Newton-King",

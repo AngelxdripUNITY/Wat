@@ -61,6 +61,17 @@
     "download_url": "https://github.com/AngelxdripUNITY/Legs/releases/download/v0.0.2/LegModGLOBAL.dll"
   },
   {
+    "name": "Walk Simulator",
+    "author": "KyleTheScientist",
+    "version": "2.0.1",
+    "dependencies": [
+      "Utilla"
+    ],
+    "git_path": "AngelxdripUNITY/WalkSim.dll",
+    "group": "Gameplay",
+    "download_url": "https://github.com/AngelxdripUNITY/Wat/raw/refs/heads/main/WalkSim.dll"
+  },
+  {
     "name": "Gorilla Shirts",
     "author": "developer9998",
     "version": "1.1.7",

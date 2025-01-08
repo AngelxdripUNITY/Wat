@@ -27,7 +27,7 @@
     "group": "Gameplay",
     "download_url": "https://github.com/iiDk-the-actual/iis.Stupid.Menu/releases/latest/download/iis_Stupid_Menu.dll"
   },
-    {
+  {
     "name": "Emote Wheel",
     "author": "iiDK",
     "version": "1.1.4",
@@ -37,6 +37,17 @@
     "git_path": "iiDk-the-actual/FortniteEmoteWheel.dll",
     "group": "Gameplay",
     "download_url": "https://github.com/iiDk-the-actual/FortniteEmoteWheel/releases/download/1.1.4/FortniteEmoteWheel.dll"
+  },
+  {
+    "name": "Mono Sandbox",
+    "author": "Monosphere",
+    "version": "1.2.1",
+    "dependencies": [
+      "Utilla"
+    ],
+    "git_path": "Monosphere/MonoSandbox.dll",
+    "group": "Gameplay",
+    "download_url": "https://github.com/Monosphere/Mono-Sandbox-Mod/releases/download/V1.2.1/MonoSandbox.dll"
   },
   {
     "name": "Gorilla Shirts",

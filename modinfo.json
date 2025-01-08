@@ -27,6 +27,17 @@
     "group": "Gameplay",
     "download_url": "https://github.com/iiDk-the-actual/iis.Stupid.Menu/releases/latest/download/iis_Stupid_Menu.dll"
   },
+    {
+    "name": "Emote Wheel",
+    "author": "iiDK",
+    "version": "1.1.4",
+    "dependencies": [
+      "Utilla"
+    ],
+    "git_path": "iiDk-the-actual/FortniteEmoteWheel.dll",
+    "group": "Gameplay",
+    "download_url": "https://github.com/iiDk-the-actual/FortniteEmoteWheel/releases/download/1.1.4/FortniteEmoteWheel.dll"
+  },
   {
     "name": "Gorilla Shirts",
     "author": "developer9998",

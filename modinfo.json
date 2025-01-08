@@ -28,6 +28,17 @@
     "download_url": "https://github.com/iiDk-the-actual/iis.Stupid.Menu/releases/latest/download/iis_Stupid_Menu.dll"
   },
   {
+    "name": "Gorilla Shirts",
+    "author": "developer9998",
+    "version": "1.1.7",
+    "dependencies": [
+      "Utilla"
+    ],
+    "git_path": "developer9998/GorillaShirts.dll",
+    "group": "Gameplay",
+    "download_url": "https://github.com/developer9998/GorillaShirts/releases/download/1.1.7/GorillaShirts.dll"
+  },
+  {
     "name": "Newtonsoft.JSON",
     "author": "James Newton-King",
     "version": "12.0.3",
